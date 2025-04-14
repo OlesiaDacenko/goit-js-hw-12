@@ -30,3 +30,76 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+.is-hidden {
+  display: none !important;
+}
+
+.load-more {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 250ms ease, transform 200ms ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.loader {
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+.gallery {
+  margin-top: 20px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+.gallery-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  transition: transform 0.3s;
+}
+
+.gallery-item {
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 10px;
+}
+.info {
+  padding: 12px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 8px;
+}
+.info-block {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-weight: 600;
+  color: #020000;
+  margin: 0 auto;
+}
+
+.value {
+  font-size: 16px;
+  color: #000509;
+  margin: 0 auto;
+}
